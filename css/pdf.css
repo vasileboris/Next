@@ -1,6 +1,6 @@
 /*
-CSS Reset from https://www.joshwcomeau.com/css/custom-css-reset/
- */
+  CSS Reset from https://www.joshwcomeau.com/css/custom-css-reset/
+*/
 
 /* 1. Use a more-intuitive box-sizing model */
 *, *::before, *::after {
@@ -48,4 +48,110 @@ h1, h2, h3, h4, h5, h6 {
 */
 #root, #__next {
   isolation: isolate;
+}
+
+/*
+CSS for PDF https://smallsharpsoftwaretools.com/tutorials/pandoc_resume/
+*/
+
+/* 1. Define the page margins and base fonts */
+
+@page {
+  margin: 10mm; /* Set to 10mm, but you can adjust as needed */
+}
+
+html {
+  font-size: 12pt; /* Base font size */
+}
+
+/* 2. Add styles for the body, including the text color, font size, and font family */
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1rem; /* 1rem = 10pt */
+  line-height: 1.5;
+  color: #24292e;
+  background-color: #fff;
+  padding: 1.25rem;
+}
+
+/* 3. Add in styles to make the hyperlinks stand out */
+
+a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* 4. Style list items and paragraphs so they have appropriate spacing */
+
+ul, ol {
+  padding-left: 1em; /* Keeping padding relative to the font size of the list */
+}
+
+li {
+  margin-top: 0.25em;
+}
+
+p, li {
+  margin-top: 0;
+  line-height: 1.6;
+}
+
+/*
+  5. Style the individual headings.
+  Leave a space above and below the second level headings, as these denote the various resume sections.
+  Remove the bottom margin from other elements to prevent unwanted blank lines.
+*/
+
+/* Name */
+h1 {
+  color: black;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+}
+
+/* Main sections */
+h2 {
+  color: black;
+  font-size: 1.3rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  padding-top: 0.25rem;
+  background: #D3D3D3;
+}
+
+/* Job titles */
+h3 {
+  color: black;
+  font-size: 1.1rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-decoration: underline;
+}
+
+/* Company names, slightly smaller and different color */
+h4 {
+  color: black;
+  font-size: 1.0rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+/* Other job titles at the same company, same as body text size */
+h5 {
+  color: black;
+  font-size: 0.8rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+img {
+  height: 1.25rem;
+  display: inline;
+  vertical-align: text-bottom;
 }

@@ -1,6 +1,6 @@
 ﻿# Vasile Mircea Boris
 
-Cluj Napoca, Romania | vasileboris@gmail.com | +40743139312 | [Linkedin](https://www.linkedin.com/in/vasileboris/)
+Cluj Napoca, Romania | vasileboris@gmail.com | +40743139312 | [![LinkedIn](images/LinkedIn_logo.svg)](https://www.linkedin.com/in/vasileboris/)
 
 I am a software engineer and team leader with extensive experience across various tech companies, currently serving as a team lead at Garmin. Alongside my professional work, I have developed personal projects, including a fall detection monitor and a budgeting app, which showcase my passion for exploring and applying technology.
 
@@ -92,16 +92,22 @@ I contributed to several projects that involved jBASE, Visual Basic and Java.
 
 I was responsible for handling the installation and configuration for a solution at client site in Switzerland. 
 
-### Personal projects
+## Personal projects
+
+### Python & JavaScript developer
 
 #### Fall detector
 
 This project started after a discussion with an acquaintance that helps people who need prosthetics for amputated legs. If these people live alone and fall, they could remain undetected in that situation for a long time. The POC is based on a Raspberry PI 4 model B with an accelerometer and a simple python application. This application reads the accelerations and if the difference is greater than a threshold it sends an SMS notification. The server is based on the same setup as My Budget with small differences, I added Tanstack Query for API calls.
 Python application communicates with the server via https and is secured with signed JWT. My solution is based on how git communicates with the server. I generate a ssh key on the Raspberry PI, that key is read by the python application and signs the JWT with it. The public key is saved on the server and is used to verify the requests.
 
+### JavaScript developer
+
 #### My Budget
 
 I started to track my budget and expenses with Excel, which is powerful and also tedious. I needed an application and decided to implement it to keep up and experiment with different technologies. It is implemented with Next.js, React, Axios, Recharts and MongoDB. The authentication is based on next-auth with Google as the provider. Initially I used it on my laptop and later I deployed it on a mini pc with docker compose. I used a Lubuntu distribution and I integrated it as a systemd service.
+
+### Java & JavaScript developer
 
 #### My Reads
 
@@ -110,6 +116,8 @@ I used this project to learn web technologies and to track reading progress.
 The initial version was built with a Java backend [library-api](https://github.com/vasileboris/library-api) and different web technologies [library-web](https://github.com/vasileboris/library-web) from ES5, Backbone.js and RequireJS to ES6, Webpack, React, Redux and Redux-Saga.
 
 The later version was implemented in React Native and Expo for Android phones [My Reads](https://github.com/vasileboris/MyReads).
+
+### Java & JavaScript developer
 
 #### Personal blog
 
