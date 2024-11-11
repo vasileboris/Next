@@ -31,9 +31,10 @@ I initiated tools for translations and images validation, aiding in overall prod
 I improved legacy development workflows, significantly reducing testing time by optimizing the local development environment.
 
 I delivered code contributions on:
+
 * Cloudflare Workers, including enhancements for images, translations, status pages, survey links, and dynamic links.
 * Email summary bug fixes and testing
-* Livetrack caching implementation
+* Livetrack caching implementation in Redis
 * Leaflet integration
 
 I facilitated Agile training sessions and core quadrant workshops for interns and colleagues.
