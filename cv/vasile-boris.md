@@ -1,22 +1,14 @@
 ﻿# Vasile Mircea Boris
 
-**Phone**: +40743139312
-
-**Email**: vasileboris@gmail.com
-
-**Address**: Cluj Napoca, Romania
-
-**Online profile**: [Linkedin](https://www.linkedin.com/in/vasileboris/)
-
-## Overview
+Cluj Napoca, Romania | vasileboris@gmail.com | +40743139312 | [Linkedin](https://www.linkedin.com/in/vasileboris/)
 
 I am a software engineer and team leader with extensive experience across various tech companies, currently serving as a team lead at Garmin. Alongside my professional work, I have developed personal projects, including a fall detection monitor and a budgeting app, which showcase my passion for exploring and applying technology.
 
-## Experience
+## Professional Experience
 
-### Garmin (Romania, Cluj Napoca)
+### Team lead (January 2016 - Present)
 
-#### Team lead (January 2016 - Present)
+#### Garmin (Romania, Cluj Napoca)
 
 I am a transparent and collaborative team leader, known for encouraging predictability and trust.
 
@@ -50,40 +42,55 @@ I engaged with the Java Academy and hosted JavaScript community events to suppor
 
 **Relevant technologies**: Javascript, React, Redux, Saga, Cloudflare, Jenkins.
 
-### Accesa (Romania, Cluj Napoca)
+### Java developer (June 2014 - January 2016)
 
-#### Senior java developer (June 2014 - January 2016)
+#### Accesa (Romania, Cluj Napoca)
 
 I was involved in implementing new business features for Media-Saturn. The most important
 contribution was to update the products transfer system between Media-Saturn stores.
 
 **Relevant technologies**: Java 6, EJB 3.0, Hibernate, Solid DB, Arquillian.
 
-#### Internship coordinator (July 2015 - August 2015)
+### Internship coordinator (July 2015 - August 2015)
+
+#### Accesa (Romania, Cluj Napoca)
 
 I coordinated a team of 6 students that implemented a quiz learning software.
 
 **Relevant technologies**: Java 7, Spring Core, Couchbase.
 
-### Betfair (Romania, Cluj Napoca)
+### Java developer (December 2009 - May 2014)
 
-#### Senior java developer (December 2009 - May 2014)
+#### Betfair (Romania, Cluj Napoca)
 
 I was involved in multiple projects that provided betting data to mobile devices. One of these
 projects used real time messaging to send updates only to client applications.
 
 **Relevant technologies**: Java 7, Spring Core.
 
-### Wirtek (Romania, Cluj Napoca)
+### Java developer (April 2007 - November 2009)
 
-#### Senior java developer (April 2007 - November 2009)
+#### ISDC (Romania, Cluj Napoca)
+
+I was employed at Wirtek, and I offered to work as a Java developer at ISDC.
+
+I was involved in one project that consisted of magazines management.
+
+**Relevant technologies**: Java.
+
+#### Wirtek (Romania, Cluj Napoca)
 
 I was involved in one project that consisted of multiple medical applications.
 
-### Softvision (Romania, Cluj Napoca)
+**Relevant technologies**: Java, Struts 1 and 2, Tomcat, PostgreSQL.
 
-#### Team lead (November 2005 - March 2007)
-#### Developer (October 2002 - October 2005) 
+### Team lead (November 2005 - March 2007), Developer (October 2002 - October 2005)
+
+#### Softvision (Romania, Cluj Napoca)
+
+I contributed to several projects that involved jBASE, Visual Basic and Java.
+
+I was responsible for handling the installation and configuration for a solution at client site in Switzerland. 
 
 ### Personal projects
 
@@ -110,12 +117,10 @@ At some point I used to have a technical blog, initially hosted on WordPress and
 
 ## Education
 
-Babes Bolyai University (Romania, Cluj Napoca)
-Computer Science Faculty
+Babes Bolyai University (Romania, Cluj Napoca) | Computer Science Faculty
 
-Humanco (Romania, Cluj Napoca)
-Coach & Trainer training courses
+Humanco (Romania, Cluj Napoca) | Coach & Trainer training courses
 
 ## Foreign languages
 
-English – reading, writing and speaking fluently
+English | reading, writing and speaking fluently
