@@ -67,7 +67,7 @@ html {
 /* 2. Add styles for the body, including the text color, font size, and font family */
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'IBM Plex Sans', 'Roboto', sans-serif;
   font-size: 1rem; /* 1rem = 10pt */
   line-height: 1.5;
   color: #24292e;
@@ -121,7 +121,6 @@ h2 {
   font-size: 1.3rem;
   margin-top: 0;
   margin-bottom: 0.5rem;
-  padding-top: 0.25rem;
   background: #D3D3D3;
 }
 
