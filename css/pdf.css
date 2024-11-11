@@ -1,81 +1,51 @@
-@page {
-    margin: 10mm; /* Set to 10mm, but you can adjust as needed */
+/*
+CSS Reset from https://www.joshwcomeau.com/css/custom-css-reset/
+ */
+
+/* 1. Use a more-intuitive box-sizing model */
+*, *::before, *::after {
+  box-sizing: border-box;
 }
 
-html {
-  font-size: 10pt; /* Base font size */
+/* 2. Remove default margin */
+* {
+  margin: 0;
 }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 1rem; /* 1rem = 10pt */
+  /* 3. Add accessible line-height */
   line-height: 1.5;
-  color: #24292e;
-  background-color: #fff;
-  padding: 1.25rem;
+  /* 4. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
 }
 
-a {
-  color: #0366d6;
-  text-decoration: none;
+/* 5. Improve media defaults */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
 }
 
-a:hover {
-  text-decoration: underline;
+/* 6. Inherit fonts for form controls */
+input, button, textarea, select {
+  font: inherit;
 }
 
-ul, ol {
-  padding-left: 1em; /* Keeping padding relative to the font size of the list */
+/* 7. Avoid text overflows */
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
 }
 
-li {
-  margin-top: 0.25em;
+/* 8. Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
 }
 
-p, li {
-  margin-top: 0;
-  line-height: 1.6;
+/*
+  9. Create a root stacking context
+*/
+#root, #__next {
+  isolation: isolate;
 }
-
-/* Name */
-h1 {
-  color: #333;
-  margin: 0;
-  margin-bottom: 0.5rem;
-  font-size: 2rem;
-}
-
-/* Main sections */
-h2 {
-  background-color: #333;
-  font-size: 1.3rem;
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-  text-decoration: underline;
-}
-
-
-/* Company names, slightly smaller and different color */
-h3 {
-  color: #333;
-  font-size: 1.1rem;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-/* Job titles */
-h4 {
-  color: #555;
-  font-size: 1.0rem;
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-}
-
-/* Other job titles at the same company, same as body text size */
-h5 {
-  color: #555;
-  font-size: 0.8rem;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
