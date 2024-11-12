@@ -114,9 +114,9 @@ I started to track my budget and expenses with Excel, which is powerful and also
 
 I used this project to learn web technologies and to track reading progress. 
 
-The initial version was built with a Java backend [library-api](https://github.com/vasileboris/library-api) and different web technologies [library-web](https://github.com/vasileboris/library-web) from ES5, Backbone.js and RequireJS to ES6, Webpack, React, Redux and Redux-Saga.
+The initial version was built with a Java backend [library-api](https://github.com/vasileboris/library-api) and different web technologies [library-web](https://github.com/vasileboris/library-web) from ES5, Backbone.js and RequireJS to ES6, Webpack, React, Redux and Redux-Saga - [library-web branches](https://github.com/vasileboris/library-web/branches).
 
-The later version was implemented in React Native and Expo for Android phones [My Reads](https://github.com/vasileboris/MyReads).
+The later version was implemented in React Native and Expo for Android phones - [My Reads](https://github.com/vasileboris/MyReads).
 
 ### Java & JavaScript developer
 
